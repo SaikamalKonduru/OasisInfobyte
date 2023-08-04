@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('C:\\Users\\kondu\\Downloads\\cosmos.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text-container {
+    margin-top: 20px;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
